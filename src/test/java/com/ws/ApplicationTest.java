@@ -24,6 +24,5 @@ public class ApplicationTest {
 		com.ws.client.Response rs = service.processOrder(order);
 		System.out.println(rs.getData());
 		System.out.println("调用完成");
-	System.out.println();
 	}
 }
